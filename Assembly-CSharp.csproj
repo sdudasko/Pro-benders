@@ -64,11 +64,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Asset Packs\Packages\Starfield Skybox\Demo\Script\LookCamera.cs" />
     <Compile Include="Assets\Scripts\FollowCamera.cs" />
     <Compile Include="Assets\Scripts\Mover.cs" />
-    <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
-    <None Include="Assets\SimpleLowPolyNature\Readme.txt" />
-    <None Include="Assets\SimpleLowPolyNature\Shaders\SimpleWater.shader" />
+    <None Include="Assets\Asset Packs\Standard Assets\water well\readme.txt" />
+    <None Include="Assets\Asset Packs\SimpleLowPolyNature\Readme.txt" />
+    <None Include="Assets\Asset Packs\SimpleLowPolyNature\Shaders\SimpleWater.shader" />
     <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/stefan.dudasko/RiderProjects/Solution1/Pro Benders/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
