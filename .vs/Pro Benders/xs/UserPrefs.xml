@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FollowCamera.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Mover.cs">
     <Files>
-      <File FileName="Assets/Scripts/Mover.cs" Line="29" Column="10" />
-      <File FileName="Assets/Scripts/FollowCamera.cs" Line="11" Column="6" />
+      <File FileName="Assets/Scripts/Mover.cs" Line="16" Column="10" />
+      <File FileName="Assets/Scripts/FollowCamera.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
