@@ -7,7 +7,7 @@ public class FollowCamera : MonoBehaviour
 
     [SerializeField] Transform target = null;
 
-    void Update()
+    void LateUpdate()
     {
         FollowCamera followCamera = GetComponent<FollowCamera>();
 
