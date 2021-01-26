@@ -1,13 +1,19 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Mover.cs">
-    <Files>
-      <File FileName="Assets/Scripts/Mover.cs" Line="16" Column="10" />
-      <File FileName="Assets/Scripts/FollowCamera.cs" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Pro Benders" expanded="True" selected="True" />
+          <Node name="Pro Benders" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Asset Packs" expanded="True">
+                <Node name="SimpleLowPolyNature" expanded="True">
+                  <Node name="Shaders" expanded="True">
+                    <Node name="SimpleWater.shader" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
