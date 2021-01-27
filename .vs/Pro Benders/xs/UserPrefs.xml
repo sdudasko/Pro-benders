@@ -1,34 +1,16 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Combat/Fighter.cs">
     <Files>
-      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="11" Column="6" />
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="23" Column="10" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" />
+      <File FileName="Assets/Scripts/Core/FollowCamera.cs" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="17" Column="42" />
+      <File FileName="Assets/Scripts/Combat/CombatTarget.cs" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Pro Benders" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Asset Packs" expanded="True">
-                <Node name="SimpleLowPolyNature" expanded="True">
-                  <Node name="Shaders" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="Scripts" expanded="True">
-                <Node name="Control" expanded="True">
-                  <Node name="PlayerController.cs" selected="True" />
-                </Node>
-                <Node name="Movement" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bb571f69-6e92-4b78-9a65-1052ce22e826" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9046bad2-9199-4be1-9dfb-3502dd5a0aac" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
