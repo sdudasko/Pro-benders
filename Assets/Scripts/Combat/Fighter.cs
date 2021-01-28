@@ -22,7 +22,10 @@ namespace RPG.Combat
 
             if (target == null || target.isDead()) return;
 
-            if (!GetIsInRange()) GetComponent<Mover>().MoveTo(target.transform.position);
+            if (!GetIsInRange()) {
+                GetComponent<Mover>().MoveTo(target.transform.position);
+            }
+            
             else
             {
                 GetComponent<Mover>().Cancel();
@@ -32,6 +35,7 @@ namespace RPG.Combat
 
         private void AttackBehaviour()
         {
+            transform.LookAt(target.transform);
             if (timeSinceLastAttack >= timeBetweenAttacks)
             {
                 // This triggers Hit()
@@ -61,5 +65,17 @@ namespace RPG.Combat
         {
             if (target) target.TakeDamange(weaponDamage);
         }
+
+        public bool CanAttack(CombatTarget combatTarget)
+        {
+            if (combatTarget == null) { return false; }
+
+            Health health = combatTarget.GetComponent<Health>();
+
+            if (health != null && !combatTarget.GetComponent<Health>().isDead()) return true;
+
+            return false;
+        }
     }
+
 }
