@@ -39,9 +39,15 @@ namespace RPG.Combat
             if (timeSinceLastAttack >= timeBetweenAttacks)
             {
                 // This triggers Hit()
-                GetComponent<Animator>().SetTrigger("attack");
+                TriggerAttack();
                 timeSinceLastAttack = 0;
             }
+        }
+
+        private void TriggerAttack()
+        {
+            GetComponent<Animator>().ResetTrigger("stopAttack");
+            GetComponent<Animator>().SetTrigger("attack");
         }
 
         private bool GetIsInRange()
@@ -55,14 +61,9 @@ namespace RPG.Combat
             target = combatTarget.GetComponent<Health>();
         }
 
-        public void Cancel()
-        {
-            target = null;
-            GetComponent<Animator>().SetTrigger("stopAttack");
-        }
-
         void Hit() // Called from Unity
         {
+            if (target == null) return;
             if (target) target.TakeDamange(weaponDamage);
         }
 
@@ -75,6 +76,18 @@ namespace RPG.Combat
             if (health != null && !combatTarget.GetComponent<Health>().isDead()) return true;
 
             return false;
+        }
+
+        public void Cancel()
+        {
+            target = null;
+            StopAttack();
+        }
+
+        private void StopAttack()
+        {
+            GetComponent<Animator>().ResetTrigger("attack");
+            GetComponent<Animator>().SetTrigger("stopAttack");
         }
     }
 
