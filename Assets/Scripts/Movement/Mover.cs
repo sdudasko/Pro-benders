@@ -1,4 +1,5 @@
-﻿using RPG.Core;
+﻿using RPG.Combat;
+using RPG.Core;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -8,16 +9,20 @@ namespace RPG.Movement
     {
         [SerializeField] Transform target;
 
+        Health health;
+
         NavMeshAgent navMeshAgent;
 
         private void Start()
         {
+            health = GetComponent<Health>();
             navMeshAgent = GetComponent<NavMeshAgent>();
         }
 
         void Update()
         {
             UpdateAnimator();
+            navMeshAgent.enabled = !health.isDead();
         }
 
         public void MoveTo(Vector3 destination)

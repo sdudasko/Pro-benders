@@ -1,22 +1,19 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/Combat/Health.cs" Line="10" Column="56" />
-      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="40" Column="43" />
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="61" Column="56" />
-      <File FileName="Assets/Scripts/Combat/CombatTarget.cs" Line="11" Column="2" />
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Core/Health.cs" Line="14" Column="27" />
+      <File FileName="Assets/Scripts/Combat/CombatTarget.cs" Line="13" Column="1" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="23" Column="42" />
+      <File FileName="Assets/Scripts/Core/ActionScheduler.cs" Line="24" Column="31" />
+      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/Control/AIController.cs" Line="11" Column="6" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="14" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Pro Benders" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Asset Packs" expanded="True">
-                <Node name="SimpleLowPolyNature" expanded="True">
-                  <Node name="Shaders" expanded="True" />
-                </Node>
-              </Node>
               <Node name="Scripts" expanded="True">
                 <Node name="Combat" expanded="True" />
                 <Node name="Control" expanded="True">
@@ -33,7 +30,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9046bad2-9199-4be1-9dfb-3502dd5a0aac" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c36f7990-efae-4b91-9061-d15159f9ad4c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
