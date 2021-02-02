@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PatrolPath.cs">
     <Files>
       <File FileName="Assets/Scripts/Core/Health.cs" Line="14" Column="27" />
       <File FileName="Assets/Scripts/Combat/CombatTarget.cs" Line="13" Column="1" />
       <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="23" Column="42" />
       <File FileName="Assets/Scripts/Core/ActionScheduler.cs" Line="24" Column="31" />
-      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="27" Column="1" />
-      <File FileName="Assets/Scripts/Control/AIController.cs" Line="11" Column="6" />
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="14" Column="17" />
+      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="8" Column="48" />
+      <File FileName="Assets/Scripts/Control/AIController.cs" Line="33" Column="22" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="22" Column="41" />
+      <File FileName="Assets/Scripts/Control/PatrolPath.cs" Line="20" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +18,7 @@
               <Node name="Scripts" expanded="True">
                 <Node name="Combat" expanded="True" />
                 <Node name="Control" expanded="True">
-                  <Node name="PlayerController.cs" selected="True" />
+                  <Node name="PatrolPath.cs" selected="True" />
                 </Node>
                 <Node name="Core" expanded="True" />
                 <Node name="Movement" expanded="True" />
