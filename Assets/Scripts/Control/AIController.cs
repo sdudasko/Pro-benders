@@ -16,6 +16,7 @@ namespace RPG.Control
         [SerializeField] PatrolPath patrolPath = null;
         [SerializeField] float wayPointTolerance = 1f;
         [SerializeField] float dwellingTime = 3f;
+        [Range(0,1)][SerializeField] float patrolSpeedFraction = 0.3f;
 
         Fighter enemyFighter;
         Health health;
@@ -40,6 +41,7 @@ namespace RPG.Control
 
         void Update()
         {
+            UpdateSpeeds();
             if (health.isDead()) return;
 
             if (InAttackRangeOfPlayer() && enemyFighter.CanAttack(player))
@@ -55,6 +57,11 @@ namespace RPG.Control
                 PatrolBehaviour();
             }
             UpdateTimers();
+        }
+
+        private void UpdateSpeeds()
+        {
+            
         }
 
         private void UpdateTimers()
@@ -79,7 +86,7 @@ namespace RPG.Control
 
             if (currentDwellingTime >= dwellingTime)
             {
-                mover.StartMoveAction(nextPosition);
+                mover.StartMoveAction(nextPosition, patrolSpeedFraction);
             }
         }
 

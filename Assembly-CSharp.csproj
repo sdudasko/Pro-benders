@@ -80,6 +80,9 @@
     <None Include="Assets\Asset Packs\SimpleLowPolyNature\Readme.txt" />
     <None Include="Assets\Asset Packs\SimpleLowPolyNature\Shaders\SimpleWater.shader" />
     <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/stefan.dudasko/RiderProjects/Solution1/Pro Benders/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/stefan.dudasko/RiderProjects/Solution1/Pro Benders/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -88,6 +91,9 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/stefan.dudasko/RiderProjects/Solution1/Pro Benders/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/stefan.dudasko/RiderProjects/Solution1/Pro Benders/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/stefan.dudasko/RiderProjects/Solution1/Pro Benders/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
