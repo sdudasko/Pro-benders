@@ -6,13 +6,6 @@
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
-/reference:"Library/ScriptAssemblies/Cinemachine.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll"
-/reference:"Library/ScriptAssemblies/com.unity.cinemachine.editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
-/reference:"Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
 /reference:"/Applications/2018.4.23f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
 /reference:"/Applications/2018.4.23f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"/Applications/2018.4.23f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -76,6 +69,13 @@
 /reference:"/Applications/2018.4.23f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"/Applications/2018.4.23f1/Unity.app/Contents/Managed/UnityEditor.dll"
 /reference:"/Applications/2018.4.23f1/Unity.app/Contents/Managed/Unity.Locator.dll"
+/reference:"Library/ScriptAssemblies/Cinemachine.dll"
+/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll"
+/reference:"Library/ScriptAssemblies/com.unity.cinemachine.editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+/reference:"Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
 /reference:"/Applications/2018.4.23f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 /reference:"/Applications/2018.4.23f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 /reference:"/Applications/2018.4.23f1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
@@ -300,6 +300,8 @@
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
 "Assets/Asset Packs/Packages/Starfield Skybox/Demo/Script/LookCamera.cs"
+"Assets/Scripts/Cinematics/CinematicControlRemover.cs"
+"Assets/Scripts/Cinematics/CinematicTrigger.cs"
 "Assets/Scripts/Combat/CombatTarget.cs"
 "Assets/Scripts/Combat/Fighter.cs"
 "Assets/Scripts/Control/AIController.cs"
