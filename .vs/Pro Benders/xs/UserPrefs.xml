@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Core/PersistentObjectSpawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneManagement/Portal.cs">
     <Files>
       <File FileName="Assets/Scripts/Cinematics/CinematicControlRemover.cs" Line="7" Column="1" />
-      <File FileName="Assets/Scripts/SceneManagement/Portal.cs" />
-      <File FileName="Assets/Scripts/SceneManagement/Fader.cs" Line="7" Column="1" />
-      <File FileName="Assets/Scripts/Core/PersistentObjectSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SceneManagement/Portal.cs" Line="53" Column="32" />
+      <File FileName="Assets/Scripts/SceneManagement/Fader.cs" Line="15" Column="40" />
+      <File FileName="Assets/Scripts/Core/PersistentObjectSpawner.cs" Line="27" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

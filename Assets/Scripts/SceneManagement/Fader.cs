@@ -12,9 +12,10 @@ namespace RPG.SceneManagement
         private void Start()
         {
             cvGroup = GetComponent<CanvasGroup>();
+            DontDestroyOnLoad(cvGroup);
         }
 
-        public IEnumerator FadeOut(float time)
+        public IEnumerator FadeOut(float time = 2f)
         {
             while (cvGroup.alpha < 1)
             {
@@ -24,7 +25,7 @@ namespace RPG.SceneManagement
             }
         }
 
-        public IEnumerator FadeIn(float time)
+        public IEnumerator FadeIn(float time = 2f)
         {
             while (cvGroup.alpha > 0)
             {
