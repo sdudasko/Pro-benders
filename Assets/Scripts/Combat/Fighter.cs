@@ -10,11 +10,18 @@ namespace RPG.Combat
     {
         [SerializeField] float weaponRange = 2f;
         [SerializeField] float timeBetweenAttacks = 0.666f;
+        [SerializeField] float weaponDamage = 5;
+
+        [SerializeField] GameObject weaponPrefab = null;
+        [SerializeField] Transform handTransform = null;
 
         Health target = null;
         float timeSinceLastAttack = Mathf.Infinity;
 
-        [SerializeField] float weaponDamage = 5;
+        public void Start()
+        {
+            SpawnWeapon();
+        }
 
         public void Update()
         {
@@ -89,6 +96,11 @@ namespace RPG.Combat
         {
             GetComponent<Animator>().ResetTrigger("attack");
             GetComponent<Animator>().SetTrigger("stopAttack");
+        }
+
+        void SpawnWeapon()
+        {
+            Instantiate(weaponPrefab, handTransform);
         }
     }
 
