@@ -76,6 +76,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1409551802932722078, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: player
+      objectReference: {fileID: 0}
     - target: {fileID: 4170260293241984027, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
         type: 3}
       propertyPath: weaponRange

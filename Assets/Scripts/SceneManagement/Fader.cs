@@ -14,6 +14,11 @@ namespace RPG.SceneManagement
             cvGroup = GetComponent<CanvasGroup>();
         }
 
+        public void FadeOutImmidiate()
+        {
+            cvGroup.alpha = 1;
+        }
+
         public IEnumerator FadeOut(float time = 2f)
         {
             while (cvGroup.alpha < 1)
