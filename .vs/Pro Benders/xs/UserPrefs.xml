@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneManagement/Fader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Core/PersistentObjectSpawner.cs">
     <Files>
       <File FileName="Assets/Scripts/Cinematics/CinematicControlRemover.cs" Line="7" Column="1" />
-      <File FileName="Assets/Scripts/SceneManagement/Portal.cs" Line="33" Column="28" />
+      <File FileName="Assets/Scripts/SceneManagement/Portal.cs" />
       <File FileName="Assets/Scripts/SceneManagement/Fader.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/Core/PersistentObjectSpawner.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d2736f8c-ca2a-4726-8809-370e27da9b69" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dd4fd07d-7d2c-494c-9bb5-78f76cc11451" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

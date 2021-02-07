@@ -33,6 +33,8 @@ namespace RPG.SceneManagement
                 yield break;
             }
 
+            Fader fader = FindObjectOfType<Fader>();
+
             DontDestroyOnLoad(gameObject);
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
 
