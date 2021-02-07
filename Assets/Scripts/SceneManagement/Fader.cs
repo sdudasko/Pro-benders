@@ -12,7 +12,6 @@ namespace RPG.SceneManagement
         private void Start()
         {
             cvGroup = GetComponent<CanvasGroup>();
-            DontDestroyOnLoad(cvGroup);
         }
 
         public IEnumerator FadeOut(float time = 2f)
