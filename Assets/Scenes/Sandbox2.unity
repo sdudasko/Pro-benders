@@ -996,6 +996,36 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -36.09
       objectReference: {fileID: 0}
+    - target: {fileID: 4177768851138451498, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177768851138451498, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177768851138451498, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -38.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177768851138451498, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.012370002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177768851138451498, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999235
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177768851138451498, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 1.4180001
+      objectReference: {fileID: 0}
     - target: {fileID: 5363412852345070217, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1130,6 +1160,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389552013494968064, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389552013494968064, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423415848728624658, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: bae7242d-8da1-4190-a49b-11a002077251
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5728575984199489711, guid: 49a6cccbc7e264f28b9b1a6d962501c6, type: 3}
