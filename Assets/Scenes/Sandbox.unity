@@ -3845,7 +3845,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213271813}
-  m_LocalRotation: {x: -0.05622404, y: 0.93685806, z: -0.17818746, w: -0.29560974}
+  m_LocalRotation: {x: -0.05622404, y: 0.93685806, z: -0.17818747, w: -0.2956097}
   m_LocalPosition: {x: 19.08, y: 8.44, z: 43.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4686,7 +4686,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: fc27e275f445a46a3b670f3dfa65875a,
         type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1327614781322992717, guid: e35f9a3bb3e4947afaf0d8b6bdf7177f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e35f9a3bb3e4947afaf0d8b6bdf7177f, type: 3}
 --- !u!4 &1463846726 stripped
 Transform:
@@ -5027,6 +5028,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Core
       objectReference: {fileID: 0}
+    - target: {fileID: 2849088578314963178, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4177768851138451498, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5157,6 +5163,12 @@ PrefabInstance:
       propertyPath: weapon
       value: 
       objectReference: {fileID: 11400000, guid: b1c72fd31bedb4ab48d971038479acb4,
+        type: 2}
+    - target: {fileID: 6824636049555674007, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: fc27e275f445a46a3b670f3dfa65875a,
         type: 2}
     - target: {fileID: 7389552013494968064, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
         type: 3}
@@ -5981,7 +5993,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010213267}
-  m_LocalRotation: {x: 0.22946443, y: -0.49152267, z: 0.13605173, w: 0.8290003}
+  m_LocalRotation: {x: 0.22946441, y: -0.4915227, z: 0.13605173, w: 0.8290003}
   m_LocalPosition: {x: 10.63, y: 7.04, z: -15.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
