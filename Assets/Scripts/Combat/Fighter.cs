@@ -21,7 +21,7 @@ namespace RPG.Combat
 
         public void Start()
         {
-            //EquipWeapon(defaultWeapon);
+            EquipWeapon(defaultWeapon);
         }
 
         public void EquipWeapon(Weapon weapon)
@@ -67,7 +67,7 @@ namespace RPG.Combat
 
         private bool GetIsInRange()
         {
-            return Vector3.Distance(transform.position, target.transform.position) < currentWeapon.GetRange();
+            return Vector3.Distance(transform.position, target.transform.position) < currentWeapon.GetIsInRange();
         }
 
         public void Attack(GameObject combatTarget)

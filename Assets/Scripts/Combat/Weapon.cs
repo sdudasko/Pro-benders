@@ -31,7 +31,7 @@ namespace RPG.Combat
             }
         }
 
-        public float GetRange()
+        public float GetIsInRange()
         {
             return range;
         }
