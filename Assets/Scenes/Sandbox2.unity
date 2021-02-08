@@ -1177,6 +1177,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 1.9250001
       objectReference: {fileID: 0}
+    - target: {fileID: 6824636049555674007, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
+        type: 3}
+      propertyPath: weaponPrefab
+      value: 
+      objectReference: {fileID: 442421246327792600, guid: 5faeff53a1df64aa2ad1d29fc58b1949,
+        type: 3}
     - target: {fileID: 7389552013494968064, guid: 49a6cccbc7e264f28b9b1a6d962501c6,
         type: 3}
       propertyPath: m_Center.y

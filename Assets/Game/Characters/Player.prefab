@@ -170,6 +170,18 @@ PrefabInstance:
       propertyPath: handTransform
       value: 
       objectReference: {fileID: 5103330331641034561}
+    - target: {fileID: 4170260293241984027, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: weaponOverrideController
+      value: 
+      objectReference: {fileID: 22100000, guid: e602041107a594c9596b603d83f6e055,
+        type: 2}
+    - target: {fileID: 4170260293241984027, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: b1c72fd31bedb4ab48d971038479acb4,
+        type: 2}
     - target: {fileID: 6813996070671032230, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
         type: 3}
       propertyPath: m_LocalPosition.x
