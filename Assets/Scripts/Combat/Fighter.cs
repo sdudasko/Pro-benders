@@ -79,7 +79,20 @@ namespace RPG.Combat
         void Hit() // Called from Unity
         {
             if (target == null) return;
-            if (target) target.TakeDamange(currentWeapon.GetDamage());
+
+            if (currentWeapon.HasProjectile())
+            {
+                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target);
+            } else
+            {
+                target.TakeDamange(currentWeapon.GetDamage());
+            }
+
+        }
+
+        void Shoot() // Called from Unity
+        {
+            Hit();
         }
 
         public bool CanAttack(GameObject combatTarget)

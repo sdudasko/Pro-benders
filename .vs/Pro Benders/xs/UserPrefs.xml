@@ -1,21 +1,17 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Combat/WeaponPickup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Combat/Projectile.cs">
     <Files>
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="72" Column="63" />
-      <File FileName="Assets/Scripts/Combat/Weapon.cs" Line="28" Column="10" />
-      <File FileName="Assets/Scripts/Combat/WeaponPickup.cs" Line="5" Column="24" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="66" Column="10" />
+      <File FileName="Assets/Scripts/Combat/Weapon.cs" />
+      <File FileName="Assets/Scripts/Combat/WeaponPickup.cs" />
+      <File FileName="Assets/Scripts/Combat/Projectile.cs" Line="32" Column="1" />
+      <File FileName="Assets/Scripts/Movement/Mover.cs" />
+      <File FileName="Assets/Scripts/SceneManagement/Portal.cs" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Pro Benders" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c995c1e6-5b0c-4958-9d05-9dd6062d2a5a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="42d0f183-5a9a-4d23-b8e1-fb263eeccd01" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
