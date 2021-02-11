@@ -69,6 +69,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851071612057321297, guid: d0a162288eb7d48acac51f633d62f8f3,
         type: 3}
+      propertyPath: destroyOnHit.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851071612057321297, guid: d0a162288eb7d48acac51f633d62f8f3,
+        type: 3}
       propertyPath: isHoming
       value: 0
       objectReference: {fileID: 0}
@@ -77,6 +82,11 @@ PrefabInstance:
       propertyPath: hitEffect
       value: 
       objectReference: {fileID: 180128, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
+    - target: {fileID: 5851071612057321297, guid: d0a162288eb7d48acac51f633d62f8f3,
+        type: 3}
+      propertyPath: destroyOnHit.Array.data[0]
+      value: 
+      objectReference: {fileID: 2835718431940390492}
     - target: {fileID: 8640857747284982130, guid: d0a162288eb7d48acac51f633d62f8f3,
         type: 3}
       propertyPath: m_Parameters.colorGradient.key0.r
@@ -199,3 +209,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0a162288eb7d48acac51f633d62f8f3, type: 3}
+--- !u!1 &2835718431940390492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4380298675512869604, guid: d0a162288eb7d48acac51f633d62f8f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1987086426790603960}
+  m_PrefabAsset: {fileID: 0}
