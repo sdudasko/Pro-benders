@@ -18,5 +18,5 @@ MonoBehaviour:
     type: 3}
   animatorOverride: {fileID: 22100000, guid: 0b0ebb148192640b29d3a61feeaa52e1, type: 2}
   isRightHanded: 0
-  projectile: {fileID: 5377476291766703081, guid: 51da9ed2c7e3c4254aab318d6f083342,
+  projectile: {fileID: 5851071612057321297, guid: d0a162288eb7d48acac51f633d62f8f3,
     type: 3}

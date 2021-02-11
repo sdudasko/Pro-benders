@@ -67,6 +67,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arrow projectile fire
       objectReference: {fileID: 0}
+    - target: {fileID: 5851071612057321297, guid: d0a162288eb7d48acac51f633d62f8f3,
+        type: 3}
+      propertyPath: isHoming
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8640857747284982130, guid: d0a162288eb7d48acac51f633d62f8f3,
         type: 3}
       propertyPath: m_Parameters.colorGradient.key0.r
@@ -181,6 +186,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Parameters.widthMultiplier
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998802792353701238, guid: d0a162288eb7d48acac51f633d62f8f3,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0a162288eb7d48acac51f633d62f8f3, type: 3}
