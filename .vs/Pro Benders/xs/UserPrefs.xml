@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Core/DestroyAfterEffect.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Combat/Weapon.cs">
     <Files>
-      <File FileName="Assets/Scripts/Combat/Projectile.cs" Line="49" Column="73" />
-      <File FileName="Assets/Scripts/Core/DestroyAfterEffect.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/Combat/Projectile.cs" Line="14" Column="54" />
+      <File FileName="Assets/Scripts/Core/DestroyAfterEffect.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/Combat/Weapon.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

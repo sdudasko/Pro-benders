@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyAfterEffect : MonoBehaviour
+namespace RPG.Core
 {
-    void Update()
+    public class DestroyAfterEffect : MonoBehaviour
     {
-        if (!GetComponent<ParticleSystem>().IsAlive())
+        void Update()
         {
-            Destroy(gameObject);
+            if (!GetComponent<ParticleSystem>().IsAlive())
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
