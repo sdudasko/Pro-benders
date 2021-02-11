@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Asset Packs\Packages\Starfield Skybox\Demo\Script\LookCamera.cs" />
+    <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\CameraTarget.cs" />
     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectController.cs" />
     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectDemo.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Assets\Scripts\SceneManagement\SavingWrapper.cs" />
     <None Include="Assets\Asset Packs\Standard Assets\water well\readme.txt" />
     <None Include="Assets\Asset Packs\Animations\README - Usage Rights for these assets 1.txt" />
+    <None Include="Assets\LightningBolt\Readme.txt" />
     <None Include="Assets\Asset Packs\SimpleLowPolyNature\Readme.txt" />
     <None Include="Assets\Asset Packs\SimpleLowPolyNature\Shaders\SimpleWater.shader" />
     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
