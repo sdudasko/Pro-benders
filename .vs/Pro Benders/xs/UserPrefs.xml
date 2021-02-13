@@ -1,12 +1,16 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PatrolPath.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Stats/Progression.cs">
     <Files>
-      <File FileName="Assets/Scripts/Combat/Projectile.cs" Line="14" Column="54" />
-      <File FileName="Assets/Scripts/Core/DestroyAfterEffect.cs" Line="18" Column="1" />
-      <File FileName="Assets/Scripts/Combat/Weapon.cs" Line="19" Column="44" />
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="18" Column="1" />
-      <File FileName="Assets/Scripts/Combat/WeaponPickup.cs" Line="34" Column="59" />
-      <File FileName="Assets/Scripts/Control/PatrolPath.cs" Line="13" Column="43" />
+      <File FileName="Assets/Scripts/Resources/Health.cs" Line="32" Column="14" />
+      <File FileName="Assets/Scripts/Combat/CombatTarget.cs" Line="9" Column="6" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="16" Column="54" />
+      <File FileName="Assets/Scripts/Combat/Weapon.cs" Line="36" Column="14" />
+      <File FileName="Assets/Scripts/Control/AIController.cs" Line="37" Column="45" />
+      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/Stats/BaseStats.cs" Line="8" Column="6" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="16" Column="29" />
+      <File FileName="Assets/Scripts/Stats/Progression.cs" Line="16" Column="14" />
+      <File FileName="Assets/Scripts/Stats/CharacterClass.cs" Line="3" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -85,10 +85,10 @@
     <Compile Include="Assets\Scripts\Core\ActionScheduler.cs" />
     <Compile Include="Assets\Scripts\Core\DestroyAfterEffect.cs" />
     <Compile Include="Assets\Scripts\Core\FollowCamera.cs" />
-    <Compile Include="Assets\Scripts\Core\Health.cs" />
     <Compile Include="Assets\Scripts\Core\IAction.cs" />
     <Compile Include="Assets\Scripts\Core\PersistentObjectSpawner.cs" />
     <Compile Include="Assets\Scripts\Movement\Mover.cs" />
+    <Compile Include="Assets\Scripts\Resources\Health.cs" />
     <Compile Include="Assets\Scripts\Saving\ISaveable.cs" />
     <Compile Include="Assets\Scripts\Saving\SaveableEntity.cs" />
     <Compile Include="Assets\Scripts\Saving\SavingSystem.cs" />
@@ -96,6 +96,9 @@
     <Compile Include="Assets\Scripts\SceneManagement\Fader.cs" />
     <Compile Include="Assets\Scripts\SceneManagement\Portal.cs" />
     <Compile Include="Assets\Scripts\SceneManagement\SavingWrapper.cs" />
+    <Compile Include="Assets\Scripts\Stats\BaseStats.cs" />
+    <Compile Include="Assets\Scripts\Stats\CharacterClass.cs" />
+    <Compile Include="Assets\Scripts\Stats\Progression.cs" />
     <None Include="Assets\Asset Packs\Standard Assets\water well\readme.txt" />
     <None Include="Assets\Asset Packs\Animations\README - Usage Rights for these assets 1.txt" />
     <None Include="Assets\LightningBolt\Readme.txt" />

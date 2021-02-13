@@ -77,6 +77,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9045494f93452344d811e0d183904816, type: 2}
+    - target: {fileID: 3554757874994246595, guid: e35f9a3bb3e4947afaf0d8b6bdf7177f,
+        type: 3}
+      propertyPath: characterClass
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7732863352196679472, guid: e35f9a3bb3e4947afaf0d8b6bdf7177f,
         type: 3}
       propertyPath: defaultWeapon
