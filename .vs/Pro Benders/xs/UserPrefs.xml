@@ -1,21 +1,18 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Stats/Progression.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Combat/EnemyHealthDisplay.cs">
     <Files>
-      <File FileName="Assets/Scripts/Resources/Health.cs" Line="32" Column="14" />
-      <File FileName="Assets/Scripts/Combat/CombatTarget.cs" Line="9" Column="6" />
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="16" Column="54" />
-      <File FileName="Assets/Scripts/Combat/Weapon.cs" Line="36" Column="14" />
-      <File FileName="Assets/Scripts/Control/AIController.cs" Line="37" Column="45" />
-      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/Stats/BaseStats.cs" Line="8" Column="6" />
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="16" Column="29" />
-      <File FileName="Assets/Scripts/Stats/Progression.cs" Line="16" Column="14" />
-      <File FileName="Assets/Scripts/Stats/CharacterClass.cs" Line="3" Column="12" />
+      <File FileName="Assets/Scripts/Resources/Health.cs" Line="26" Column="10" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="75" Column="1" />
+      <File FileName="Assets/Scripts/Combat/Projectile.cs" Line="70" Column="44" />
+      <File FileName="Assets/Scripts/Combat/Weapon.cs" Line="79" Column="10" />
+      <File FileName="Assets/Scripts/Stats/BaseStats.cs" Line="19" Column="41" />
+      <File FileName="Assets/Scripts/Resources/Experience.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/Combat/EnemyHealthDisplay.cs" Line="19" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="42d0f183-5a9a-4d23-b8e1-fb263eeccd01" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="63b5062d-6b6d-4ace-ad58-fc032f2c6b13" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

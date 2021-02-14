@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using RPG.Core;
 using RPG.Saving;
@@ -10,8 +11,8 @@ namespace RPG.Resources
 
     public class Health : MonoBehaviour, ISaveable
     {
-        [SerializeField] float points_of_health = 100f;
-
+        [SerializeField] float points_of_health = 100;
+        
         bool is_dead = false;
 
         private void Start()
@@ -24,14 +25,29 @@ namespace RPG.Resources
             return is_dead;
         }
 
-        public void TakeDamange(float damage_taken)
+        public void TakeDamange(GameObject instigator, float damage_taken)
         {
             points_of_health = Mathf.Max(points_of_health - damage_taken, 0);
 
             if (!is_dead && points_of_health <= 0)
             {
                 Die();
+                AwardExperience(instigator);
             }
+        }
+
+        private void AwardExperience(GameObject instigator)
+        {
+            Experience experience = instigator.GetComponent<Experience>();
+
+            if (experience == null) return;
+
+            experience.GainExperience(GetComponent<BaseStats>().GetExperienceReward());
+        }
+
+        public float GetPercentage()
+        {
+            return 100 * (points_of_health / GetComponent<BaseStats>().GetHealth());
         }
 
         private void Die()
