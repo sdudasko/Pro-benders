@@ -1,10 +1,15 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Stats/Progression.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Stats/Experience.cs">
     <Files>
-      <File FileName="Assets/Scripts/Resources/HealthDisplay.cs" Line="23" Column="2" />
-      <File FileName="Assets/Scripts/Resources/ExperienceDisplay.cs" Line="19" Column="104" />
-      <File FileName="Assets/Scripts/Resources/Experience.cs" Line="12" Column="1" />
-      <File FileName="Assets/Scripts/Stats/Progression.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Stats/Progression.cs" Line="57" Column="16" />
+      <File FileName="Assets/Scripts/Stats/Stats.cs" Line="9" Column="2" />
+      <File FileName="Assets/Scripts/Stats/ExperienceDisplay.cs" Line="11" Column="6" />
+      <File FileName="Assets/Scripts/Stats/LevelDisplay.cs" Line="8" Column="20" />
+      <File FileName="Assets/Scripts/Resources/Health.cs" Line="22" Column="83" />
+      <File FileName="Assets/Scripts/SceneManagement/SavingWrapper.cs" Line="38" Column="23" />
+      <File FileName="Assets/Scripts/Saving/SavingSystem.cs" Line="16" Column="21" />
+      <File FileName="Assets/Scripts/Stats/BaseStats.cs" Line="8" Column="6" />
+      <File FileName="Assets/Scripts/Stats/Experience.cs" Line="33" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

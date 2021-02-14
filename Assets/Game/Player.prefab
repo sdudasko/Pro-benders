@@ -2376,6 +2376,7 @@ GameObject:
   - component: {fileID: 8229175908482287078}
   - component: {fileID: 8462837506454946172}
   - component: {fileID: 7115439675352232869}
+  - component: {fileID: 6006916278085141487}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2502,9 +2503,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2a3024b8fac4c0d8ff44ada61c7b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponRange: 1
   timeBetweenAttacks: 0.3
-  weaponDamage: 100
+  rightHandTransform: {fileID: 0}
+  leftHandTransform: {fileID: 0}
+  defaultWeapon: {fileID: 0}
 --- !u!114 &2419446984200688879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2556,6 +2558,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab34da9225075482c84d02206ac30cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6006916278085141487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8997343699894522921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2667bba4b13f43e099163e8a1dce322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  experiencePoints: 0
 --- !u!1 &9221606059164122375
 GameObject:
   m_ObjectHideFlags: 0
