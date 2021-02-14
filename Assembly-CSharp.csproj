@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\Core\PersistentObjectSpawner.cs" />
     <Compile Include="Assets\Scripts\Movement\Mover.cs" />
     <Compile Include="Assets\Scripts\Resources\Experience.cs" />
+    <Compile Include="Assets\Scripts\Resources\ExperienceDisplay.cs" />
     <Compile Include="Assets\Scripts\Resources\Health.cs" />
     <Compile Include="Assets\Scripts\Resources\HealthDisplay.cs" />
     <Compile Include="Assets\Scripts\Saving\ISaveable.cs" />

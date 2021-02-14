@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using RPG.Saving;
 using UnityEngine;
@@ -22,6 +23,11 @@ namespace RPG.Resources
         public void RestoreState(object state)
         {
             experiencePoints = (float)state;
+        }
+
+        internal float GetPoints()
+        {
+            return experiencePoints;
         }
     }
 }
