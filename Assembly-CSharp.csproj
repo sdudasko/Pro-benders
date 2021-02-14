@@ -102,6 +102,7 @@
     <Compile Include="Assets\Scripts\Stats\BaseStats.cs" />
     <Compile Include="Assets\Scripts\Stats\CharacterClass.cs" />
     <Compile Include="Assets\Scripts\Stats\Progression.cs" />
+    <Compile Include="Assets\Scripts\Stats\Stats.cs" />
     <None Include="Assets\Asset Packs\Standard Assets\water well\readme.txt" />
     <None Include="Assets\Asset Packs\Animations\README - Usage Rights for these assets 1.txt" />
     <None Include="Assets\LightningBolt\Readme.txt" />
