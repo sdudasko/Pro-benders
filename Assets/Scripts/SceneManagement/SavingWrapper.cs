@@ -14,7 +14,12 @@ namespace RPG.SceneManagement
 
         [SerializeField] float fadeInTime = 0.2f;
 
-        IEnumerator Start()
+        private void Awake()
+        {
+            StartCoroutine(LoadLastScene());
+        }
+
+        private IEnumerator LoadLastScene()
         {
             Fader fader = FindObjectOfType<Fader>();
             fader.FadeOutImmidiate();
@@ -33,7 +38,7 @@ namespace RPG.SceneManagement
             {
                 Save();
             }
-            if (Input.GetKeyDown(KeyCode.Delete))
+            if (Input.GetKeyDown(KeyCode.D))
             {
                 Delete();
             }
