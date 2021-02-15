@@ -9,7 +9,7 @@ namespace RPG.SceneManagement
     {
         CanvasGroup cvGroup;
 
-        private void Start()
+        private void Awake()
         {
             cvGroup = GetComponent<CanvasGroup>();
         }
