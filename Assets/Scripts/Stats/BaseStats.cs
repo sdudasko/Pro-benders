@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using RPG.Resources;
 using UnityEngine;
 
 namespace RPG.Stats
@@ -14,13 +15,17 @@ namespace RPG.Stats
 
         [SerializeField] GameObject levelUpEffect = null;
 
+        public event Action OnLevelUp;
+
         int currentLevel = 0;
+        Health health = null;
 
         public void Start()
         {
             currentLevel = CalculateLevel();
 
             Experience experience = GetComponent<Experience>();
+            health = GetComponent<Health>();
 
             if (experience != null)
             {
@@ -36,6 +41,8 @@ namespace RPG.Stats
             {
                 currentLevel = newLevel;
                 LevelUpEffect();
+                OnLevelUp();
+
             }
         }
 

@@ -1,23 +1,13 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Resources/Health.cs">
     <Files>
-      <File FileName="Assets/Scripts/Stats/Progression.cs" Line="47" Column="46" />
-      <File FileName="Assets/Scripts/Stats/Stats.cs" Line="9" Column="2" />
-      <File FileName="Assets/Scripts/Stats/ExperienceDisplay.cs" Line="11" Column="6" />
-      <File FileName="Assets/Scripts/Stats/LevelDisplay.cs" Line="8" Column="20" />
-      <File FileName="Assets/Scripts/Resources/Health.cs" Line="22" Column="83" />
-      <File FileName="Assets/Scripts/SceneManagement/SavingWrapper.cs" Line="13" Column="47" />
-      <File FileName="Assets/Scripts/Saving/SavingSystem.cs" Line="16" Column="21" />
-      <File FileName="Assets/Scripts/Stats/BaseStats.cs" Line="23" Column="64" />
-      <File FileName="Assets/Scripts/Stats/Experience.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/Core/DestroyAfterEffect.cs" Line="14" Column="14" />
-      <File FileName="Assets/Scripts/SceneManagement/Fader.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/Resources/HealthDisplay.cs" Line="20" Column="18" />
+      <File FileName="Assets/Scripts/Stats/BaseStats.cs" Line="23" Column="28" />
+      <File FileName="Assets/Scripts/Resources/Health.cs" Line="20" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="63b5062d-6b6d-4ace-ad58-fc032f2c6b13" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b2fb6515-875c-4079-b8da-ddc71cef0aad" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
