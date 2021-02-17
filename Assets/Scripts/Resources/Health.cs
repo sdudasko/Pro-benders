@@ -43,6 +43,15 @@ namespace RPG.Resources
             }
         }
 
+        public float GetHealthPoints()
+        {
+            return points_of_health;
+        }
+        public float GetMaxHealthPoints()
+        {
+            return GetComponent<BaseStats>().GetStat(Stat.Health);
+        }
+
         private void AwardExperience(GameObject instigator)
         {
             Experience experience = instigator.GetComponent<Experience>();

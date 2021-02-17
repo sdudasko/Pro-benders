@@ -1,12 +1,14 @@
-﻿using RPG.Core;
+﻿using System.Collections.Generic;
+using RPG.Core;
 using RPG.Movement;
 using RPG.Resources;
 using RPG.Saving;
+using RPG.Stats;
 using UnityEngine;
 
 namespace RPG.Combat
 {
-    public class Fighter : MonoBehaviour, IAction, ISaveable
+    public class Fighter : MonoBehaviour, IAction, ISaveable, IModifierProvider
     {
         [SerializeField] float timeBetweenAttacks = 0.666f;
 
@@ -25,6 +27,7 @@ namespace RPG.Combat
             {
                 EquipWeapon(defaultWeapon);
             }
+
         }
 
         public void EquipWeapon(Weapon weapon)
@@ -88,12 +91,16 @@ namespace RPG.Combat
         {
             if (target == null) return;
 
+            float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
+
+            print("Damage dealth: " + damage);
+
             if (currentWeapon.HasProjectile())
             {
-                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject);
+                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject, damage);
             } else
             {
-                target.TakeDamange(gameObject, currentWeapon.GetDamage());
+                target.TakeDamange(gameObject, damage);
             }
 
         }
@@ -125,6 +132,22 @@ namespace RPG.Combat
         {
             GetComponent<Animator>().ResetTrigger("attack");
             GetComponent<Animator>().SetTrigger("stopAttack");
+        }
+
+        public IEnumerable<float> GetAdditiveModifiers(Stat stat)
+        {
+            if (stat == Stat.Damage)
+            {
+                yield return currentWeapon.GetDamage();
+            }
+        }
+
+        public IEnumerable<float> GetPercentageModifiers(Stat stat)
+        {
+            if (stat == Stat.Damage)
+            {
+                yield return currentWeapon.GetPercentageBonus();
+            }
         }
 
         public object CaptureState()

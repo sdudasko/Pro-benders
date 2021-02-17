@@ -9,19 +9,25 @@ namespace RPG.Combat
 {
     public class EnemyHealthDisplay : MonoBehaviour
     {
-        Health target;
+        Fighter fighter;
+
+        private void Awake()
+        {
+            fighter = GameObject.FindWithTag("Player").GetComponent<Fighter>();
+        }
 
         private void Update()
         {
-            target = GameObject.FindWithTag("Player").GetComponent<Fighter>().GetTarget();
 
-            if (target == null) {
+
+            if (fighter.GetTarget() == null) {
 
                 GetComponent<Text>().text = "No target";
-            } else
-            {
-                GetComponent<Text>().text = String.Format("{0:0}%", target.GetPercentage());
+                return;
             }
+
+            Health health = fighter.GetTarget();
+            GetComponent<Text>().text = String.Format("{0:0}/{1:0}", health.GetHealthPoints(), health.GetMaxHealthPoints());
         }
     }
 }
