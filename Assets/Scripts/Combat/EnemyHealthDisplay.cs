@@ -18,8 +18,6 @@ namespace RPG.Combat
 
         private void Update()
         {
-
-
             if (fighter.GetTarget() == null) {
 
                 GetComponent<Text>().text = "No target";
