@@ -30,13 +30,16 @@ namespace RPG.Control
         int currentWayPoint = 0;
         float currentDwellingTime = Mathf.Infinity;
 
-        void Start()
+        private void Awake()
         {
             enemyFighter = GetComponent<Fighter>();
             player = GameObject.FindWithTag("Player");
             health = GetComponent<Health>();
             mover = GetComponent<Mover>();
+        }
 
+        void Start()
+        {
             guardInitialPosition = transform.position;
         }
 
