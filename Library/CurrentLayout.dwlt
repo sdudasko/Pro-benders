@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 1
-  controlID: 75
+  controlID: 83
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 76
+  controlID: 84
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 77
+  controlID: 85
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 78
+  controlID: 86
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 72090000
       m_LastClickedID: 0
       m_ExpandedIDs: defbffff
       m_RenameOverlay:
@@ -579,20 +579,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Game/Weapons/Resources
+    - Assets/Scripts/Saving
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Game/Weapons/Resources
+  - Assets/Scripts/Saving
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/stefan.dudasko/RiderProjects/Solution1/Pro Benders
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 85}
-    m_SelectedIDs: b60e0000
-    m_LastClickedID: 3766
-    m_ExpandedIDs: 000000004a0d00005e0d0000380f00000e1000001010000000110000021100003a110000ac11000020130000b41400001a150000c8160000d8160000a4410000a641000000ca9a3b
+    scrollPos: {x: 0, y: 345}
+    m_SelectedIDs: 78110000
+    m_LastClickedID: 4472
+    m_ExpandedIDs: 000000004a0d00005e0d0000380f00000e1000001010000000110000021100003a110000ac11000020130000b41400001a150000c8160000d8160000a2410000a441000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004a0d00005e0d0000380f00000e1000001010000000110000021100003a110000ac11000020130000b41400001a150000c8160000d8160000a4410000a6410000
+    m_ExpandedIDs: 000000004a0d00005e0d0000380f00000e1000001010000000110000021100003a110000ac11000020130000b41400001a150000c8160000d8160000a2410000a4410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -647,7 +647,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000340b0000500b0000e20b00004c0c0000722d0000e42a0000582a0000c22c0000040d0000109d000050100000080cffff220d000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
