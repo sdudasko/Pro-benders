@@ -1,5 +1,8 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PlayerController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="44" Column="21" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -8,7 +11,7 @@
               <Node name="Game" expanded="True" />
               <Node name="Scripts" expanded="True">
                 <Node name="Control" expanded="True">
-                  <Node name="AIController.cs" selected="True" />
+                  <Node name="PlayerController.cs" selected="True" />
                 </Node>
                 <Node name="Saving" expanded="True" />
                 <Node name="Stats" expanded="True" />

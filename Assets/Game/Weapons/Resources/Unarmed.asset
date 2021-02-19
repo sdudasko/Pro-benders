@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Unarmed
   m_EditorClassIdentifier: 
   range: 2
-  damage: 4
+  damage: 2
+  percentageBonus: 2
   equippedPrefab: {fileID: 0}
   animatorOverride: {fileID: 0}
   isRightHanded: 1

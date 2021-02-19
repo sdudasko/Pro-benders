@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Staff
   m_EditorClassIdentifier: 
   range: 2
-  damage: 35
+  damage: 8
+  percentageBonus: 3
   equippedPrefab: {fileID: 442421246327792600, guid: 5faeff53a1df64aa2ad1d29fc58b1949,
     type: 3}
   animatorOverride: {fileID: 22100000, guid: e602041107a594c9596b603d83f6e055, type: 2}
