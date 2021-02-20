@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Cinematics/CinematicControlRemover.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Combat/WeaponPickup.cs">
     <Files>
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="26" Column="38" />
-      <File FileName="Assets/Scripts/Cinematics/CinematicControlRemover.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="34" Column="1" />
+      <File FileName="Assets/Scripts/Cinematics/CinematicControlRemover.cs" Line="16" Column="55" />
+      <File FileName="Assets/Scripts/Control/IRaycastable.cs" Line="3" Column="34" />
+      <File FileName="Assets/Scripts/Combat/WeaponPickup.cs" Line="18" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
