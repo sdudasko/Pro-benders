@@ -1,4 +1,5 @@
-﻿using RPG.Combat;
+﻿using System;
+using RPG.Combat;
 using RPG.Movement;
 using RPG.Resources;
 using UnityEngine;
@@ -9,14 +10,6 @@ namespace RPG.Control
     public class PlayerController : MonoBehaviour
     {
         Health health;
-
-        enum CursorType
-        {
-            None,
-            Movement,
-            Combat,
-            UI
-        }
 
         [System.Serializable] struct CursorMapping
         {
@@ -42,7 +35,7 @@ namespace RPG.Control
                 return;
             }
             if (InteractWithComponent()) return;
-            if (InteractWithCombat()) return;
+
             if (InteractWithMovement()) return;
 
             SetCursor(CursorType.None);
@@ -50,7 +43,7 @@ namespace RPG.Control
 
         private bool InteractWithComponent()
         {
-            RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
+            RaycastHit[] hits = RaycastAllSorted();
 
             foreach (RaycastHit hit in hits)
             {
@@ -60,7 +53,7 @@ namespace RPG.Control
                 {
                     if (raycastable.HandleRaycast(this))
                     {
-                        SetCursor(CursorType.Combat);
+                        SetCursor(raycastable.GetCursorType());
                         return true;
                     }
                 }
@@ -68,36 +61,27 @@ namespace RPG.Control
             return false;
         }
 
+        private RaycastHit[] RaycastAllSorted()
+        {
+            RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
+
+            float[] distances = new float[hits.Length];
+            
+            for (int i = 0; i < hits.Length; i++)
+            {
+                distances[i] = hits[i].distance;
+            }
+
+            Array.Sort(distances, hits);
+
+            return hits;
+        }
 
         private bool InteractWithUI()
         {
             if (EventSystem.current.IsPointerOverGameObject())
             {
                 SetCursor(CursorType.UI);
-                return true;
-            }
-            return false;
-        }
-
-        private bool InteractWithCombat()
-        {
-            RaycastHit[] hits =  Physics.RaycastAll(GetMouseRay());
-
-            foreach(RaycastHit hit in hits)
-            {
-                CombatTarget target = hit.transform.GetComponent<CombatTarget>();
-
-                if (target == null) continue;
-
-                if (!target.GetComponent<Fighter>().CanAttack(target.gameObject)) { continue; }
-
-                if (Input.GetMouseButton(0))
-                {
-                    GetComponent<Fighter>().Attack(target.gameObject);
-                }
-
-                SetCursor(CursorType.Combat);
-
                 return true;
             }
             return false;
