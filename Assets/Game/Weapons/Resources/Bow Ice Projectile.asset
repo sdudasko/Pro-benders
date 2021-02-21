@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bow Ice Projectile
   m_EditorClassIdentifier: 
   range: 10
-  damage: 6
+  damage: 50
   percentageBonus: 3
   equippedPrefab: {fileID: 413797079311298784, guid: 144ce701f9dc44f46a40b62bdc376ff3,
     type: 3}
