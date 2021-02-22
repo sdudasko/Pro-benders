@@ -14,8 +14,6 @@ namespace RPG.Attributes
     public class Health : MonoBehaviour, ISaveable
     {
         [SerializeField] float regenerationPercentage = 70;
-        //[SerializeField] UnityEvent takeDamage;
-
         public TakeDamageEvent takeDamage;
 
         [System.Serializable]
@@ -91,7 +89,12 @@ namespace RPG.Attributes
 
         public float GetPercentage()
         {
-            return 100 * (points_of_health.value / GetComponent<BaseStats>().GetStat(Stat.Health));
+            return 100 * GetFraction();
+        }
+
+        internal float GetFraction()
+        {
+            return points_of_health.value / GetComponent<BaseStats>().GetStat(Stat.Health);
         }
 
         private void Die()
