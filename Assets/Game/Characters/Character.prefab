@@ -20,7 +20,6 @@ GameObject:
   - component: {fileID: 1409551802932722078}
   - component: {fileID: 4675784281557798758}
   - component: {fileID: 7195084175643697384}
-  - component: {fileID: 1857533359719727777}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -179,14 +178,14 @@ MonoBehaviour:
   takeDamage:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1948037389154308890}
+      - m_Target: {fileID: 1947906934227603148}
         m_MethodName: Spawn
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 13
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -250,19 +249,6 @@ MonoBehaviour:
   progression: {fileID: 11400000, guid: 4e850e19c1ffc437fa97f8d6bcfbe2ca, type: 2}
   levelUpEffect: {fileID: 0}
   shouldUserModifiers: 0
---- !u!114 &1857533359719727777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6813996070671032280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da677022acaa14b6fa61258870326e9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageTextPrefab: {fileID: 0}
 --- !u!1001 &1914133219159909254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -338,9 +324,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1914133219159909254}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1948037389154308890 stripped
+--- !u!114 &1947906934227603148 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114999752306061468, guid: 8b6149cf7bf0746998f63892a6296fbf,
+  m_CorrespondingSourceObject: {fileID: 114847340449574218, guid: 8b6149cf7bf0746998f63892a6296fbf,
     type: 3}
   m_PrefabInstance: {fileID: 1914133219159909254}
   m_PrefabAsset: {fileID: 0}

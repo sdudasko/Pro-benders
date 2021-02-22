@@ -111,6 +111,41 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0.78
       objectReference: {fileID: 0}
+    - target: {fileID: 2303134104171182760, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402103979463729309, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402103979463729309, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402103979463729309, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402103979463729309, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5298274484948770279}
+    - target: {fileID: 3402103979463729309, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Spawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402103979463729309, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4170260293241984027, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
         type: 3}
       propertyPath: weaponDamage
@@ -252,3 +287,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5949003988866896683}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5298274484948770279 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1947906934227603148, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+    type: 3}
+  m_PrefabInstance: {fileID: 5949003988866896683}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da677022acaa14b6fa61258870326e9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

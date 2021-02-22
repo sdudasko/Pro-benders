@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 389066890631764270}
-  - component: {fileID: 114999752306061468}
+  - component: {fileID: 114847340449574218}
   m_Layer: 0
   m_Name: Damage Text Spawner
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114999752306061468
+--- !u!114 &114847340449574218
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,5 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da677022acaa14b6fa61258870326e9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageTextPrefab: {fileID: 114800098368011918, guid: 1f7c3016aabca4fa1a2f3b65fd5f5782,
+  damageTextPrefab: {fileID: 4993603161858405583, guid: 1f7c3016aabca4fa1a2f3b65fd5f5782,
     type: 3}

@@ -110,8 +110,6 @@ namespace RPG.Combat
 
             float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
 
-            print("Damage dealth: " + damage);
-
             if (currentWeapon.value.HasProjectile())
             {
                 currentWeapon.value.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject, damage);
