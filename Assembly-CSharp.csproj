@@ -75,6 +75,9 @@
     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectShaderPropertyStr.cs" />
     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\RenderEffect.cs" />
     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\TransformExtension.cs" />
+    <Compile Include="Assets\Scripts\Attributes\Health.cs" />
+    <Compile Include="Assets\Scripts\Attributes\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Attributes\HealthDisplay.cs" />
     <Compile Include="Assets\Scripts\Cinematics\CinematicControlRemover.cs" />
     <Compile Include="Assets\Scripts\Cinematics\CinematicTrigger.cs" />
     <Compile Include="Assets\Scripts\Combat\CombatTarget.cs" />
@@ -95,8 +98,6 @@
     <Compile Include="Assets\Scripts\Core\IAction.cs" />
     <Compile Include="Assets\Scripts\Core\PersistentObjectSpawner.cs" />
     <Compile Include="Assets\Scripts\Movement\Mover.cs" />
-    <Compile Include="Assets\Scripts\Resources\Health.cs" />
-    <Compile Include="Assets\Scripts\Resources\HealthDisplay.cs" />
     <Compile Include="Assets\Scripts\Saving\ISaveable.cs" />
     <Compile Include="Assets\Scripts\Saving\SaveableEntity.cs" />
     <Compile Include="Assets\Scripts\Saving\SavingSystem.cs" />

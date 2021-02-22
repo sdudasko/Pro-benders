@@ -1,15 +1,30 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Resources/Health.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Attributes/HealthBar.cs">
     <Files>
-      <File FileName="Assets/Scripts/Control/IRaycastable.cs" Line="5" Column="36" />
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="137" Column="32" />
-      <File FileName="Assets/Scripts/Core/CameraFacing.cs" Line="11" Column="63" />
-      <File FileName="Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" Line="9" Column="53" />
-      <File FileName="Assets/Scripts/UI/DamageText/DamageText.cs" Line="15" Column="35" />
-      <File FileName="Assets/Destroyer.cs" Line="6" Column="2" />
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="112" Column="1" />
-      <File FileName="Assets/Scripts/Resources/Health.cs" Line="19" Column="22" />
+      <File FileName="Assets/Scripts/Attributes/Health.cs" Line="7" Column="17" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="74" Column="32" />
+      <File FileName="Assets/Scripts/Attributes/HealthBar.cs" Line="6" Column="3" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Pro Benders" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Game" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="Attributes" expanded="True">
+                  <Node name="HealthBar.cs" selected="True" />
+                </Node>
+                <Node name="Combat" expanded="True" />
+                <Node name="Control" expanded="True" />
+                <Node name="Saving" expanded="True" />
+                <Node name="Stats" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
