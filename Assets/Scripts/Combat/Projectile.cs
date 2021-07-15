@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using RPG.Core;
 using RPG.Attributes;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace RPG.Combat
 {
@@ -23,11 +24,14 @@ namespace RPG.Combat
 
         GameObject instigator = null;
 
+        [SerializeField] UnityEvent onHit;
+
         private void Start()
         {
             if (target == null) return;
 
             transform.LookAt(GetAimLocation());
+
         }
 
         void Update()
@@ -70,6 +74,8 @@ namespace RPG.Combat
             target.TakeDamange(instigator, damage);
 
             speed = 0;
+
+            onHit.Invoke();
 
             if (hitEffect != null) Instantiate(hitEffect, GetAimLocation(), transform.rotation);
 

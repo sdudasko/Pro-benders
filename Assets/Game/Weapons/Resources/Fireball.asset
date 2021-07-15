@@ -15,7 +15,7 @@ MonoBehaviour:
   range: 15
   damage: 15
   percentageBonus: 5
-  equippedPrefab: {fileID: 442421246327792600, guid: ffdecb5d9c74c4d6ea2381c6585de052,
+  equippedPrefab: {fileID: 2841046361596795408, guid: ffdecb5d9c74c4d6ea2381c6585de052,
     type: 3}
   animatorOverride: {fileID: 22100000, guid: 18108170f3488405d94c5eb17c8c2131, type: 2}
   isRightHanded: 1

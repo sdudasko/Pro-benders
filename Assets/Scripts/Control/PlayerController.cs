@@ -21,7 +21,6 @@ namespace RPG.Control
 
         [SerializeField] CursorMapping[] cursorMappings = null;
         [SerializeField] float maxNavMeshProjectionDistance = 1f;
-        [SerializeField] float maxNavPathLength = 40f;
 
         private void Start()
         {
@@ -97,6 +96,7 @@ namespace RPG.Control
 
             if (hasHit) // hasHit return true if it find a place where the hit can be performed (If the hit is placed on the map)
             {
+                if (!GetComponent<Mover>().CanMoveTo(target)) return false;
                 if (Input.GetMouseButtonDown(0))
                 {
                     GetComponent<Mover>().StartMoveAction(target, 1f);
@@ -120,24 +120,7 @@ namespace RPG.Control
             if (!hasCastToNavMesh) { return false; }
             target = navMeshHit.position;
 
-            NavMeshPath path = new NavMeshPath();
-            bool hasPath = NavMesh.CalculatePath(transform.position, target, NavMesh.AllAreas, path);
-            if (!hasPath || path.status != NavMeshPathStatus.PathComplete) return false;
-            if (GetPathLength(path) > maxNavPathLength) return false;
-
             return true;
-        }
-
-        private float GetPathLength(NavMeshPath path)
-        {
-            float sum = 0;
-            if (path.corners.Length < 2) return sum;
-
-            for(int i = 0; i < path.corners.Length - 1; i++) {
-                float distance = Vector3.Distance(path.corners[i], path.corners[i + 1]);
-                sum += distance;
-            }
-            return sum;
         }
 
         private void SetCursor(CursorType type)

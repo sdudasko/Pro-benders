@@ -188,7 +188,7 @@ PrefabInstance:
     - target: {fileID: 2303134104171182760, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3402103979463729309, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
         type: 3}
@@ -344,8 +344,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7084956362322675132, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
         type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084956362322675132, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
       propertyPath: points_of_health
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084956362322675132, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084956362322675132, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084956362322675132, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 850904385955030018, guid: e35f9a3bb3e4947afaf0d8b6bdf7177f,
+        type: 3}
+    - target: {fileID: 7084956362322675132, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Aggrevate
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084956362322675132, guid: 596a90f7ef5444e8da3c00b6cca9e47c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 596a90f7ef5444e8da3c00b6cca9e47c, type: 3}
