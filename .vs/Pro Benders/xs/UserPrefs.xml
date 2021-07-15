@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{1DE474C4-DAE9-FA4F-075D-05D7BB793562}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/AIController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PlayerController.cs">
     <Files>
       <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="118" Column="120" />
       <File FileName="Assets/Scripts/Combat/WeaponConfig.cs" Line="30" Column="14" />
       <File FileName="Assets/Scripts/Combat/Weapon.cs" Line="17" Column="2" />
       <File FileName="Assets/Scripts/Combat/WeaponPickup.cs" Line="16" Column="43" />
       <File FileName="Assets/Scripts/Attributes/Health.cs" Line="50" Column="33" />
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="124" Column="10" />
-      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="38" Column="70" />
-      <File FileName="Assets/Scripts/Control/AIController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="55" Column="18" />
+      <File FileName="Assets/Scripts/Control/AIController.cs" Line="90" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +18,7 @@
                 <Node name="Attributes" expanded="True" />
                 <Node name="Combat" expanded="True" />
                 <Node name="Control" expanded="True">
-                  <Node name="AIController.cs" selected="True" />
+                  <Node name="PlayerController.cs" selected="True" />
                 </Node>
                 <Node name="Movement" expanded="True" />
               </Node>
